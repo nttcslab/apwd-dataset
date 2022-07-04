@@ -1,5 +1,5 @@
-FSD50K='../../../datasets/fsd50k/'
-ESC50='../../../datasets/ESC-50-master/audio'
+FSD50K='Need to change for your environment'
+ESC50='Need to change for your environment'
 
 
 
