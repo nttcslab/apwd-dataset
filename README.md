@@ -20,8 +20,8 @@ If you use the APwD dataset in your work, please cite this paper where it was in
 <!-- Paper URL: https://arxiv.org/hogehogefugafufa -->
 
 ## Usage
-1. Preparing FSD50k and ESC-50 <br>
-Download FSD50k and ESC50. You can download them from the following URLs<br>
+1. Preparing FSD50K and ESC-50 <br>
+Download FSD50K and ESC50. You can download them from the following URLs<br>
 FSD50k: https://zenodo.org/record/4060432 <br>
 ESC-50: https://github.com/karolpiczak/ESC-50 <br>
 After downloading, make a note of the directory where each wav file is saved (it will be used in the next step).
