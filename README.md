@@ -6,9 +6,8 @@ Similar sound pairs are synthesized from the existing datasets for audio tagging
 For details, please refer to the paper [1].
 If you use the APwD dataset in your work, please cite this paper where it was introduced.
 
-``
+
 [1] Daiki Takeuchi, Yasunori Ohishi, Daisuke Niizumi, Noboru Harada and Kunio Kashino, "Introducing auxiliary text query-modifier to content-based audio retrieval," in Proc of INTERSPEECH, 2022.
-``
 
 <!-- ```
 @inproceedings{niizumi2022composing,
