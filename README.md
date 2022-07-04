@@ -28,7 +28,7 @@ After downloading, make a note of the directory where each wav file is saved (it
 
 1. Modifying setting <br>
 In utils.py, rewrite the contents of the two variables (**FSD50K** and **ESC50**) to your environment
-The variables are defined at the beginning of the file as follows: directories FSD50k and ESC-50.
+The variables are defined at the beginning of the file as follows: directories FSD50K and ESC-50.
 Please enter the directory of the data saved in the previous step.
 
 1. Synthesizing dataset <br>
