@@ -1,0 +1,279 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "rain",
+            "source_file": "source/dev/background/rain/141440.wav",
+            "source_time": 4.767008348699146,
+            "event_time": 0,
+            "event_duration": 10,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "rain",
+            "source_file": "source/dev/background/rain/34073.wav",
+            "source_time": 3.769165534528409,
+            "event_time": 0,
+            "event_duration": 10,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.23511764826147985,
+          "duration": 4.008885743253158,
+          "value": {
+            "label": "birds",
+            "source_file": "source/dev/foreground/birds/4-216211-A-14.wav",
+            "source_time": 0,
+            "event_time": 0.23511764826147985,
+            "event_duration": 4.008885743253158,
+            "snr": 5.733815448961738,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 3.341055764660303,
+          "duration": 4.3169164195603535,
+          "value": {
+            "label": "footsteps",
+            "source_file": "source/dev/foreground/footsteps/4-198962-B-25.wav",
+            "source_time": 0,
+            "event_time": 3.341055764660303,
+            "event_duration": 4.3169164195603535,
+            "snr": 11.472323474153697,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10,
+          "original_duration": 10,
+          "fg_path": "source/dev/foreground",
+          "bg_path": "source/dev/background",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "birds"
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                8
+              ],
+              [
+                "uniform",
+                3,
+                5
+              ],
+              [
+                "const",
+                5.733815448961738
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "footsteps"
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                8
+              ],
+              [
+                "uniform",
+                3,
+                5
+              ],
+              [
+                "const",
+                11.472323474153697
+              ],
+              "foreground",
+              null,
+              null
+            ]
+          ],
+          "bg_spec": [
+            [
+              [
+                "const",
+                "rain"
+              ],
+              [
+                "const",
+                "source/dev/background/rain/141440.wav"
+              ],
+              [
+                "uniform",
+                0,
+                10
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "rain"
+              ],
+              [
+                "const",
+                "source/dev/background/rain/34073.wav"
+              ],
+              [
+                "uniform",
+                0,
+                10
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ]
+          ],
+          "fg_labels": [
+            "birds",
+            "car_horn",
+            "car_passing",
+            "cat",
+            "church_bells",
+            "clapping",
+            "crickets",
+            "dog",
+            "footsteps",
+            "rain",
+            "siren",
+            "thunder"
+          ],
+          "bg_labels": [
+            "car_passing",
+            "rain"
+          ],
+          "protected_labels": [],
+          "sr": 44100,
+          "ref_db": -34.52820469203606,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 2,
+          "polyphony_max": 2,
+          "polyphony_gini": 0.6714715487120808,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": null,
+          "scaper_version": "1.6.5",
+          "soundscape_audio_path": null,
+          "isolated_events_audio_path": [],
+          "audio_path": "datasets/apwd_rain_sc/dev//wav/apwd_rain_sc_dev_34038_s1.wav",
+          "jams_path": "datasets/apwd_rain_sc/dev//jams/apwd_rain_sc_dev_34038_s1.jams",
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "isolated_events_path": null,
+          "disable_sox_warnings": true,
+          "no_audio": true,
+          "txt_path": "datasets/apwd_rain_sc/dev//txt/apwd_rain_sc_dev_34038_s1.txt",
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -34.52820469203606,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}
