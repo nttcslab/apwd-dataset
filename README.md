@@ -1,4 +1,4 @@
-# APwD-dataset
+# Audio Pair with Difference dataset (APwD dataset)
 APwD dataset is a pair of sounds with differences and text describing the differences. 
 It is prepared by Daiki Takeuchi and members in NTT CS lab.
 The APwD dataset is designed for research that introduces auxilary textual information into content-based audio retrieval.
