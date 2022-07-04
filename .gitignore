@@ -1,0 +1,5 @@
+__pycache__/
+audio_csv/
+source/
+datasets/**/wav/
+datasets/**/*.wav

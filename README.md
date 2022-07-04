@@ -5,9 +5,10 @@ The APwD dataset is designed for research that introduces auxilary textual infor
 Similar sound pairs are synthesized from the existing datasets for audio tagging, FSD50K and ESC50, and the differences are described based on synthesizing method.
 For details, please refer to the paper [1].
 If you use the APwD dataset in your work, please cite this paper where it was introduced.
-```
+
+``
 [1] Daiki Takeuchi, Yasunori Ohishi, Daisuke Niizumi, Noboru Harada and Kunio Kashino, "Introducing auxiliary text query-modifier to content-based audio retrieval," in Proc of INTERSPEECH, 2022.
-```
+``
 
 <!-- ```
 @inproceedings{niizumi2022composing,
@@ -15,7 +16,6 @@ If you use the APwD dataset in your work, please cite this paper where it was in
     author      = {Daiki Takeuchi and Yasunori Ohishi and Daisuke Niizumi and Noboru Harada and Kunio Kashino},
     booktitle   = {2022 INTERSPEECH},
     year        = {2022},
-    url         = {https://arxiv.org/abs/2205.08138}
 }
 ``` -->
 <!-- Paper URL: https://arxiv.org/hogehogefugafufa -->
